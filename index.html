@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Lanchonete do Guiodai – Cardápio</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+</head>
+<body>
+    <div class="header-container">
+        <header>
+            <img src="logo-lanchonete.png" alt="Logo Lanchonete do Guiodai" class="logo-header">
+            <h1>Lanchonete do Guiodai</h1>
+            <p>Seu bem-vindo à Lanchonete do Guiodai. Aproveite e confira nosso cardápio!</p>
+            <div class="menu-navegacao">
+                <a href="#" class="btn-navegacao" data-target="hotdogs">Hot Dog</a>
+                <a href="#" class="btn-navegacao" data-target="sanduiches">Sanduíche</a>
+                <a href="#" class="btn-navegacao" data-target="hamburguer">Hambúrguer</a>
+                <a href="#" class="btn-navegacao" data-target="filedefrango">Filé de Frango</a>
+                <a href="#" class="btn-navegacao" data-target="bebidas">Bebidas</a>
+                <a
+                    id="pedido-btn"
+                    href="https://wa.me/c/5517991597942"
+                    target="_blank"
+                >Entrega</a>
+            </div>
+        </header>
+    </div>
+
+    <main>
+        <section class="categoria-cardapio" id="hotdogs">
+            <img src="hotdog_banner.jpg" alt="Imagem de Hot Dog" class="categoria-imagem">
+            <h2>HOT DOG</h2>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Produto</th>
+                            <th>Ingredientes</th>
+                            <th>Preço</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cardapio-hotdogs">
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="categoria-cardapio" id="sanduiches">
+            <img src="sanduiche_banner.jpg" alt="Imagem de Sanduíche" class="categoria-imagem">
+            <h2>SANDUÍCHE</h2>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Produto</th>
+                            <th>Ingredientes</th>
+                            <th>Preço</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cardapio-sanduiches">
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="categoria-cardapio" id="hamburguer">
+            <img src="hamburguer_banner.jpg" alt="Imagem de Hambúrguer" class="categoria-imagem">
+            <h2>HAMBÚRGUER</h2>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Produto</th>
+                            <th>Ingredientes</th>
+                            <th>Preço</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cardapio-hamburguer">
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="categoria-cardapio" id="filedefrango">
+            <img src="filefrango_banner.jpg" alt="Imagem de Filé de Frango" class="categoria-imagem">
+            <h2>FILÉ DE FRANGO</h2>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Produto</th>
+                            <th>Ingredientes</th>
+                            <th>Preço</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cardapio-filedefrango">
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="categoria-cardapio" id="bebidas">
+            <img src="bebidas_banner.jpg" alt="Imagem de Bebidas" class="categoria-imagem">
+            <h2>BEBIDAS</h2>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Produto</th>
+                            <th>Descrição</th>
+                            <th>Preço</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cardapio-bebidas">
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Lanchonete do Guiodai</p>
+    </footer>
+
+    <script src="java/script.js"></script>
+</body>
+</html>
